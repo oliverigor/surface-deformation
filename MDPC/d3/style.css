@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #d3d3d3;
+}
+form {
+    width: 500px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    width: 45px;
+}
+#submit {
+    width: 60px !important;
+}
+#screen {
+    height: 480px;
+    width: 640px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.dot {
+    fill: white;
+    stroke: black;
+    stroke-width: 1.5px;
+    cursor: pointer;
+}
+.dot_transp {
+  fill: white;
+  stroke: white;
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
+.link {
+    stroke: #000;
+    stroke-width: 2px;
+}
+button {
+    height: 20px;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
